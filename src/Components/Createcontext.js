@@ -1,12 +1,15 @@
-import React, { createContext, useState } from 'react';
+import React, { createContext, useState } from 'react'
+
 
 export const Createcontext = createContext();
+
 export const Provider = (props) => {
+
     const [list, setList] = useState([
         {
 
             "id": 1,
-            "imageurl":"https://mpng.subpng.com/20191102/olb/transparent-dress-clothing-gown-white-blue-5dbdcef4c0c1e9.9316189515727203727895.jpg",
+            "imageurl":"https://png.pngtree.com/png-clipart/20210308/original/pngtree-ladies-clothing-vector-dress-png-image_5750813.jpg",
             "name":"Blue & Black Dress",
             "description":" ",
             "category": "Fashion",
@@ -15,26 +18,26 @@ export const Provider = (props) => {
         {
 
             "id": 2,
-            "imageurl":"https://w7.pngwing.com/pngs/270/398/png-transparent-laptop-intel-core-hp-envy-hewlett-packard-laptop.png",
-            "name":"HP-Silver",
+            "imageurl":"https://purepng.com/public/uploads/large/purepng.com-laptopelectronicslaptopcomputer-941524676379zuw2c.png",
+            "name":"HP-Black",
             "description":" ",
             "category": "Laptop",
-            "price":70000,
-        },
-        {
-
-            "id": 3,
-            "imageurl":"https://m.media-amazon.com/images/I/611ovP2GkrL._SX522_.jpg",
-            "name":"Apple iPhone 13 Pro Max",
-            "description":" ",
-            "category": "Mobile",
             "price":60000,
         },
         {
 
+            "id": 3,
+            "imageurl":"https://m.media-amazon.com/images/I/71MHTD3uL4L.jpg",
+            "name":"Apple iPhone 12 Pro",
+            "description":" ",
+            "category": "Mobile",
+            "price":40000,
+        },
+        {
+
             "id": 4,
-            "imageurl":"https://img.favpng.com/11/10/9/headphones-apple-earbuds-clip-art-png-favpng-qtBMgmvm1du8Cg6SrmHFhbJmu.jpg",
-            "name":"Bluetooth Headset ",
+            "imageurl":"https://img.joomcdn.net/758d0c84c78719cdc26a67e5ce3bf749555ef5a6_original.jpeg",
+            "name":"HP Bluetooth Headset ",
             "description":" ",
             "category": "Accesories",
             "price":1000,
@@ -42,20 +45,20 @@ export const Provider = (props) => {
         {
 
             "id": 5,
-            "imageurl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ27Ab_oioMN7ApFlf9Ly4tBZdWbAmO3n82fw&usqp=CAU",
+            "imageurl":"https://www.pngitem.com/pimgs/m/281-2819574_small-baby-boy-dress-hd-png-download.png",
             "name":"Small Baby Boy Dress",
             "description":" ",
             "category": "Fashion",
-            "price":649,
+            "price":666,
         },
         {
 
             "id": 6,
-            "imageurl":"https://img.favpng.com/20/4/19/child-pink-toddler-baby-dress-png-favpng-V4cEMNReHvHnmncP1Sf0WMx7z.jpg",
+            "imageurl":"https://www.vhv.rs/dpng/d/542-5426773_girl-dress-girl-hd-png-download.png",
             "name":"Girl-Dress",
             "description":" ",
             "category": "Fashion",
-            "price":449,
+            "price":349,
         },
         {
 
@@ -78,16 +81,16 @@ export const Provider = (props) => {
         {
 
             "id": 9,
-            "imageurl":"https://w7.pngwing.com/pngs/168/338/png-transparent-t-shirt-suit-graphy-clothing-men-s-suits-person-wearing-2-piece-dress-suit-tshirt-white-men-suit-thumbnail.png",
-            "name":"mens-suit",
+            "imageurl":"https://w7.pngwing.com/pngs/273/488/png-transparent-gilets-waistcoat-jacket-kurta-sleeve-jacket-white-brown-color.png",
+            "name":"mens-jacket-kurta",
             "description":" ",
             "category": "Fashion",
-            "price":1199,
+            "price":1200,
         },
         {
 
             "id": 10,
-            "imageurl":"https://png.pngtree.com/element_our/20190528/ourmid/pngtree-minority-boy-cartoon-illustration-image_1164500.jpg",
+            "imageurl":"https://static.toiimg.com/photo/msid-74514285/74514285.jpg",
             "name":"Boys ethnic wear",
             "description":" ",
             "category": "Fashion",
@@ -105,7 +108,7 @@ export const Provider = (props) => {
         {
 
             "id": 12,
-            "imageurl":"https://e7.pngegg.com/pngimages/102/623/png-clipart-apple-macbook-air-13-mid-2017-laptop-intel-core-macbook-electronics-computer.png",
+            "imageurl":"https://pngimg.com/uploads/macbook/macbook_PNG65.png",
             "name":"macbook",
             "description":" ",
             "category": "Laptop",
@@ -114,7 +117,7 @@ export const Provider = (props) => {
         {
 
             "id": 13,
-            "imageurl":"https://img.favpng.com/7/24/25/laptop-intel-core-i7-dell-xps-png-favpng-ChNtBdXFi8XSTPknZwdvkS7Zz.jpg",
+            "imageurl":"https://www.downloadclipart.net/large/dell-laptop-png-free-download.png",
             "name":"Dell",
             "description":" ",
             "category": "Laptop",
@@ -124,7 +127,7 @@ export const Provider = (props) => {
 
             "id": 14,
             "imageurl":"https://www.pngfind.com/pngs/m/658-6586213_alienware-18-dell-inspiron-15-5000-gaming-laptop.png",
-            "name":"dell-inspiron-5000",
+            "name":"dell-inspiron-5000-gaming-laptop",
             "description":" ",
             "category": "Laptop",
             "price":58000,
@@ -133,16 +136,16 @@ export const Provider = (props) => {
 
             "id": 15,
             "imageurl":"https://cdn.imgbin.com/7/25/1/imgbin-macbook-pro-15-4-inch-apple-mac-mini-laptop-macbook-HsSHaV8t1MH1uY87xMwCGSrw4.jpg",
-            "name":"macbook-pro-15",
+            "name":"macbook-pro-15-4-inch-apple-mac-mini-laptop",
             "description":" ",
             "category": "Laptop",
-            "price":59000,
+            "price":49000,
         },
         {
 
             "id": 16,
             "imageurl":"https://www.pngfind.com/pngs/m/677-6777181_hp-i3-laptop-silver-hd-png-download.png",
-            "name":"hp-i5-laptop-silver",
+            "name":"hp-i3-laptop-silver",
             "description":" ",
             "category": "Laptop",
             "price":55000,
@@ -159,8 +162,8 @@ export const Provider = (props) => {
         {
 
             "id": 18,
-            "imageurl":"https://cdn.imgbin.com/0/20/17/imgbin-dell-xps-15-9560-intel-core-i7-laptop-laptops-for-college-students-PKgEmEmvbmpv47gqqjNPQhbNa.jpg",
-            "name":"Dell XPS 15 9560 Intel Core I7 Laptop",
+            "imageurl":"https://chromeunboxed.com/wp-content/uploads/2021/08/Untitled-1-2-1200x900.jpg",
+            "name":"lenovo",
             "description":" ",
             "category": "Laptop",
             "price":55000,
@@ -169,10 +172,10 @@ export const Provider = (props) => {
 
             "id": 19,
             "imageurl":"https://static.toiimg.com/photo/msid-78642800/78642800.jpg",
-            "name":"Apple iPhone 11 Red",
+            "name":"Apple iPhone 12",
             "description":" ",
             "category": "Mobile",
-            "price":48000,
+            "price":28000,
         },
         {
 
@@ -181,31 +184,31 @@ export const Provider = (props) => {
             "name":"Redmi Note 10S",
             "description":" ",
             "category": "Mobile",
-            "price":15000,
+            "price":32000,
         },
         {
 
             "id": 21,
-            "imageurl":"https://oasis.opstatics.com/content/dam/oasis/page/2021/9-series/spec-image/9r/Lake-Blue-gallery..png",
-            "name":"OnePlus 9R",
+            "imageurl":"https://static.techspot.com/images/products/2019/smartphones/org/2020-04-14-product-3.png",
+            "name":"OnePlus 8",
             "description":" ",
             "category": "Mobile",
-            "price":45000,
+            "price":40000,
         },
         {
 
             "id": 22,
-            "imageurl":"https://www.pngitem.com/pimgs/m/519-5190921_realme-5-pro-hd-png-download.png",
-            "name":"Realme 5 Pro",
+            "imageurl":"https://pngset.com/images/oppo-mobile-phone-electronics-cell-phone-graphics-transparent-png-1281650.png",
+            "name":"oppo",
             "description":" ",
             "category": "Mobile",
-            "price":17000,
+            "price":10000,
         },
         {
 
             "id": 23,
-            "imageurl":"https://fscl01.fonpit.de/devices/23/2223.png",
-            "name":"Samsung Galaxy S22",
+            "imageurl":"https://www.citypng.com/public/uploads/preview/-11599003756hnkmfnfuhg.png",
+            "name":"samsung",
             "description":" ",
             "category": "Mobile",
             "price":35000,
@@ -213,17 +216,17 @@ export const Provider = (props) => {
         {
 
             "id": 24,
-            "imageurl":"https://i02.appmifile.com/988_operator_sg/09/02/2022/b09176f07d84e119623b4d218bfea455.png",
-            "name":"Poco M4 Pro",
+            "imageurl":"https://i01.appmifile.com/webfile/globalimg/products/pc/poco-m3/specs01.png",
+            "name":"Poco",
             "description":" ",
             "category": "Mobile",
-            "price":18000,
+            "price":28000,
         },
         {
 
             "id": 25,
-            "imageurl":"https://st1.bgr.in/wp-content/uploads/2022/02/Poco-M4-Pro-5G-2-1.jpg",
-            "name":"Poco",
+            "imageurl":"https://www.vhv.rs/dpng/d/572-5725669_realme-png-image-realme-2-pro-4gb-ram.png",
+            "name":"realme",
             "description":" ",
             "category": "Mobile",
             "price":15000,
@@ -231,8 +234,8 @@ export const Provider = (props) => {
         {
 
             "id": 26,
-            "imageurl":"https://cdn.imgbin.com/13/21/1/imgbin-nokia-3310-2017-jio-phone-sd-feature-phone-4g-jio-0XC865cmNa5iuFs23u4zv92cd.jpg",
-            "name":"Jio Phone",
+            "imageurl":"https://img.favpng.com/0/24/16/android-one-mobile-phones-smartphone-google-png-favpng-9Yq0txh51HZgMjPbVCYRpc4sb_t.jpg",
+            "name":"Jio mobiles",
             "description":" ",
             "category": "Mobile",
             "price":9000,
@@ -258,25 +261,25 @@ export const Provider = (props) => {
         {
 
             "id": 30,
-            "imageurl":"https://motorolaroe.vtexassets.com/arquivos/ids/156684-800-auto?width=800&height=auto&aspect=true",
-            "name":"Moto",
+            "imageurl":"https://cdn9.pngable.com/9/1/14/FyXyMnTqWn/blackberry.jpg",
+            "name":"Blackberry ",
             "description":" ",
             "category": "Mobile",
-            "price":17000,
+            "price":7000,
         },
         {
 
             "id": 31,
-            "imageurl":"https://e7.pngegg.com/pngimages/857/954/png-clipart-mobile-phone-accessories-charger-connection-line-data-lines.png",
-            "name":"Usb charger ",
+            "imageurl":"https://www.pngitem.com/pimgs/m/508-5084452_phone-accessories-battery-charger-hd-png-download.png",
+            "name":"battery charger ",
             "description":" ",
             "category": "Accesories",
-            "price":690,
+            "price":600,
         },
         {
 
             "id": 32,
-            "imageurl":"https://toppng.com/uploads/preview/earphone-11523956635875e9jqzj8.png",
+            "imageurl":"https://sc04.alicdn.com/kf/H439f3a340eb44f91809684dfa0f8c5d4o.png",
             "name":"Bluetooth earphones ",
             "description":" ",
             "category": "Accesories",
@@ -285,8 +288,8 @@ export const Provider = (props) => {
         {
 
             "id": 33,
-            "imageurl":"https://www.kindpng.com/picc/m/552-5529897_photo-camera-png-image-transparent-sony-alpha-9.png",
-            "name":"Sony Alfa ",
+            "imageurl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJB8rrurUBLZZJAOICp49Zti5Htpc6YOVpAw&usqp=CAU",
+            "name":"camera ",
             "description":" ",
             "category": "Accesories",
             "price":30000,
@@ -303,7 +306,7 @@ export const Provider = (props) => {
         {
 
             "id": 35,
-            "imageurl":"https://drive.google.com/file/d/1Tys3houI1OtE9sMuCzxEZIT8MXYZKqFZ/view?usp=sharing",
+            "imageurl":"https://cdn.imgbin.com/6/23/22/imgbin-headset-bluetooth-mobile-phones-wireless-headphones-bluetooth-ZAqY16pdjtrcfvEauhc63yPRR.jpg",
             "name":"wireless bluetooth ",
             "description":" ",
             "category": "Accesories",
@@ -312,7 +315,7 @@ export const Provider = (props) => {
         {
 
             "id": 36,
-            "imageurl":"https://spng.pngfind.com/pngs/s/180-1803624_2014-apple-watch-hd-png-download.png",
+            "imageurl":"https://w7.pngwing.com/pngs/1013/886/png-transparent-smartwatch-android-iphone-telephone-audio-speakers-electronics-ring-accessories.png",
             "name":"smartwatch ",
             "description":" ",
             "category": "Accesories",
@@ -321,11 +324,11 @@ export const Provider = (props) => {
         {
 
             "id": 37,
-            "imageurl":"https://www.freeiconspng.com/thumbs/bag-png/bags-png-31.png",
+            "imageurl":"https://www.nicepng.com/png/detail/87-875523_leather-bag-men-mens-office-bags.png",
             "name":"leather-bag ",
             "description":" ",
             "category": "Accesories",
-            "price":2000,
+            "price":200,
         },
         {
 
@@ -348,7 +351,7 @@ export const Provider = (props) => {
         {
 
             "id": 40,
-            "imageurl":"https://w7.pngwing.com/pngs/631/788/png-transparent-table-wood-tables-orange-table-illustration-angle-furniture-rectangle-thumbnail.png",
+            "imageurl":"https://www.pngall.com/wp-content/uploads/5/Computer-Accessories-PNG-Image-File.png",
             "name":"Table ",
             "description":" ",
             "category": "Accesories",
@@ -357,8 +360,8 @@ export const Provider = (props) => {
         {
 
             "id": 41,
-            "imageurl":"https://toppng.com/uploads/preview/eye-glass-11550204989kpm0esg4os.png",
-            "name":"Eyeglasses",
+            "imageurl":"https://cloudfront.zeelool.com/media/catalog/product/i/m/image_3929.jpg",
+            "name":" eyeglasses",
             "description":" ",
             "category": "Accesories",
             "price":700,
@@ -384,20 +387,20 @@ export const Provider = (props) => {
         {
 
             "id": 44,
-            "imageurl":"https://png.pngtree.com/png-vector/20201129/ourmid/pngtree-childrens-shoes-png-image_2392000.jpg",
+            "imageurl":"https://png.pngitem.com/pimgs/s/294-2947275_baby-boy-shoes-baby-boy-shoes-png-transparent.png",
             "name":"baby shoes ",
             "description":" ",
             "category": "Fashion",
-            "price":199,
+            "price":100,
         },
         {
 
             "id": 45,
-            "imageurl":"https://img.favpng.com/9/25/6/rolex-datejust-rolex-submariner-watch-colored-gold-png-favpng-0gYiAETZehChSEV2hqvZPLpDK_t.jpg",
-            "name":"Rolex watch ",
+            "imageurl":"https://img.favpng.com/22/19/25/fr-d-rique-constant-watch-clock-strap-clothing-accessories-png-favpng-MS50de9PRBdxZxFp5ae2fUXQm.jpg",
+            "name":"watch ",
             "description":" ",
             "category": "Fashion",
-            "price":10000,
+            "price":1000,
         },
         {
 
@@ -411,8 +414,8 @@ export const Provider = (props) => {
         {
 
             "id": 47,
-            "imageurl":"https://w7.pngwing.com/pngs/99/715/png-transparent-xiaomi-mi-notebook-air-12-5%E2%80%B3-laptop-macbook-air-laptop-electronics-netbook-computer.png",
-            "name":"MI",
+            "imageurl":"https://e7.pngegg.com/pngimages/235/457/png-clipart-vaio-laptop-windows-7-device-driver-windows-vista-sony-laptop-computers-netbook-computer.png",
+            "name":"sony ",
             "description":" ",
             "category": "Laptop",
             "price":45000,
@@ -420,8 +423,8 @@ export const Provider = (props) => {
         {
 
             "id": 48,
-            "imageurl":"https://www.lg.com/uk/lg-gram/images/hand-laptop.png",
-            "name":" lg gram",
+            "imageurl":"https://5.imimg.com/data5/SC/EY/GLADMIN-10151372/lg-gram-thin-and-light-laptop-13-point3-full-hd-ips-display-intel-core-i5-500x500.png",
+            "name":" lg",
             "description":" ",
             "category": "Laptop",
             "price":40000,
@@ -429,8 +432,8 @@ export const Provider = (props) => {
         {
 
             "id": 49,
-            "imageurl":"https://w7.pngwing.com/pngs/936/581/png-transparent-laptop-lenovo-thinkpad-intel-core-ibm-lenovo-logo-electronics-netbook-computer.png",
-            "name":"lenovo thinkpad ",
+            "imageurl":"https://w7.pngwing.com/pngs/484/607/png-transparent-laptop-thinkpad-x-series-intel-core-i5-computer-thinkpad-t-series-ibm-electronics-netbook-computer.png",
+            "name":"ibm thinkpad ",
             "description":" ",
             "category": "Laptop",
             "price":38000,
@@ -444,3 +447,4 @@ export const Provider = (props) => {
         </Createcontext.Provider>
     )
 }
+
